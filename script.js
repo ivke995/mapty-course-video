@@ -124,7 +124,6 @@ class App {
     this.#mapEvent = mapE;
     form.classList.remove('hidden');
     inputDistance.focus();
-    console.log('Welcome!');
   }
 
   _hideForm() {
@@ -310,3 +309,8 @@ class App {
   }
 }
 const app = new App();
+
+const newFeature = function () {
+  console.log('Welcome to the application!');
+};
+newFeature();
