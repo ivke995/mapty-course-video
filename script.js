@@ -286,7 +286,6 @@ class App {
         duration: 1,
       },
     });
-    // workout.click();
   }
   _setLocalStorage() {
     localStorage.setItem('workouts', JSON.stringify(this.#workouts));
@@ -309,8 +308,3 @@ class App {
   }
 }
 const app = new App();
-
-const newFeature = function () {
-  console.log('Welcome to the application!');
-};
-newFeature();
